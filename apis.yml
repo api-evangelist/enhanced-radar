@@ -1,8 +1,26 @@
 aid: enhanced-radar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enhanced-radar.png
 name: Enhanced Radar
-description: Enhanced Radar is a company surfaced as a portfolio company of dcvc, initialized-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Enhanced Radar is a San Francisco-based applied AI company building intelligent
+  systems for aviation, the world's most complex transportation domain. Its work centers on
+  pilot-controller communications, where the company owns the full pipeline from data collection
+  through in-house labeling and quality assurance to produce high-quality aviation AI training
+  datasets. Products include Pattern, an aviation operational intelligence platform; ATC.com, a
+  live air traffic control radio service; and Y4, an aviation understanding model announced in
+  February 2026. Enhanced Radar has demonstrated real-time detection of runway incursion risks and
+  raised $7 million in May 2026. It is backed by DCVC and Initialized Capital. The company does not
+  currently publish a public API, developer documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/enhanced-radar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aviation
+- Artificial Intelligence
+- Air Traffic Control
+- Aviation Safety
+- Machine Learning
+- Datasets
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/enhanced-radar-domain-security.yml
 - type: Website
   url: https://www.enhancedradar.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
