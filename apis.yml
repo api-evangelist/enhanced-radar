@@ -49,7 +49,7 @@ tags:
 - Artificial Intelligence
 - Air Traffic Control
 - Aviation Safety
-- Machine-Learning
+- Machine Learning
 - Datasets
 - Transportation
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Machine Learning
 - Datasets
 - Transportation
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
