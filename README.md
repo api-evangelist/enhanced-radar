@@ -72,14 +72,26 @@ Enhanced Radar is a San Francisco-based applied AI company building intelligent 
 
 Everything profiled for Enhanced Radar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/enhanced-radar/](https://apis.io/providers/enhanced-radar/)** — or go straight to one of the APIs or properties below.
 
+### APIs (2)
+
+- [Enhanced Radar API](https://apis.io/apis/enhanced-radar/enhanced-radar-api-2/) — Base URL, authentication, and every route in the Enhanced Radar API.
+- [Enhanced Radar API](https://apis.io/apis/enhanced-radar/enhanced-radar-api/) — Enhanced Radar API as documented publicly: 16 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own…
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Enhanced Radar API Rules](https://apis.io/rules/enhanced-radar/enhanced-radar-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Enhanced Radar Authentication](https://apis.io/security/enhanced-radar/enhanced-radar-authentication/)
 - [Enhanced Radar Domain Security](https://apis.io/security/enhanced-radar/enhanced-radar-domain-security/)
 
 ## Where to find this API
@@ -87,10 +99,17 @@ Authentication, trust centre, and vulnerability disclosure.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.enhancedradar.com/)
+- [Documentation](https://enhancedradar.com/docs/api)
+- [Getting started](https://enhancedradar.com/introducing-the-enhanced-radar-api)
+- [API reference](https://api.enhancedradar.com)
+- [Pricing](https://enhancedradar.com/docs/api/pricing)
+- [Sign up](https://enhancedradar.com/introducing-the-enhanced-radar-api)
+- [Terms of service](https://enhancedradar.com/terms)
+- [Privacy policy](https://enhancedradar.com/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 3.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 3.4** — minimal · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
@@ -124,6 +143,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
 **Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
 
