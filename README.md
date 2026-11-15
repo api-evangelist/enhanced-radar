@@ -98,7 +98,7 @@ Authentication, trust centre, and vulnerability disclosure.
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://www.enhancedradar.com/)
+- [Website](https://enhancedradar.com/)
 - [Documentation](https://enhancedradar.com/docs/api)
 - [Getting started](https://enhancedradar.com/introducing-the-enhanced-radar-api)
 - [API reference](https://api.enhancedradar.com)
